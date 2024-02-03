@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Edu+QLD+Beginner:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Felipa&family=Seymour+One&family=Simonetta:ital,wght@0,400;0,900;1,400;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Quicksand:wght@300..700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: url("nightforest.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header
+{
+    background-color: rgb(4, 41, 74);
+}
+.navbar
+{
+    text-align: right;
+    padding-right: 25px;
+    padding-bottom: 15px;
+}
+.navbar ul li
+{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+    padding-top: 30px;   
+}
+.navbar ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+#homepage
+{
+    background-color: rgba(0,0,0,.75);
+    margin: 30px 50px 0px 50px;
+    
+}
+.box h2
+{
+    padding: 200px 180px 50px;
+    color: rgb(12, 39, 86);
+    font-family: 'Bruno Ace';
+    font-size: 75px;
+}
+#homepage img
+{
+    
+    border: 7px solid silver;
+    border-radius: 100%;
+    float: right;
+    margin: 25px;
+}
+#homepage p, .cando, .ido
+{
+    font-family: 'Embed Code';
+    font-size: 20px;
+    color: whitesmoke;
+}
+.box p
+{
+    padding: 0px 200px 175px;
+}
+#home h3,#family h3, #living h3, #education h3, #skills h3
+{
+    font-family: 'Simonetta';
+    padding-left: 120px;
+    padding-top: 45px;
+    text-decoration: underline;
+    color: rgb(99, 8, 8);
+    font-size: 50px;
+}
+#home p,#family p, #living p, #education p
+{
+    font-family: 'Embed Code';
+    color: whitesmoke;
+    padding: 80px 180px;
+}
+
+footer
+{
+    background-color: rgba(0,0,0,.50);
+    margin: 5px 5px 2px;
+    color: rgb(254, 254, 254);
+    font-family: 'Bruno Ace';
+}
+#skills p
+{
+    padding: 30px 30px ;
+    padding-left: 180px;
+}
+.cando, .ido
+{
+    padding-left: 240px;
+    padding-right: 130px;
+}
+#contact h3
+{
+    text-align: center;
+    padding-top: 30px;
+    text-decoration: underline;
+    font-family: 'Quicksand';
+    font-size: 45px;
+}
+#contact p
+{
+    font-family: 'Gowun Batang';
+    padding: 80px 150px; 
+}
